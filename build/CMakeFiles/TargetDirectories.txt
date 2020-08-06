@@ -1,4 +1,0 @@
-/home/programmer/cpp/05.08/C-NanoDegree/CppND-Project/build/CMakeFiles/rebuild_cache.dir
-/home/programmer/cpp/05.08/C-NanoDegree/CppND-Project/build/CMakeFiles/edit_cache.dir
-/home/programmer/cpp/05.08/C-NanoDegree/CppND-Project/build/CMakeFiles/gui-app.dir
-/home/programmer/cpp/05.08/C-NanoDegree/CppND-Project/build/CMakeFiles/gui-app_autogen.dir
