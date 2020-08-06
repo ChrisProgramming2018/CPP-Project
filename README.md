@@ -23,7 +23,7 @@ In this Project, I create a visual Interface to use the Libtorch API to use an L
 
 1. Clone this repo.
 2. create a new folder third `mkdir third`
-3. Unzip the pytorch download there
+3. Unzip the pytorch download there ( use cpu (no cuda support) https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-1.6.0%2Bcpu.zip)
 4. make sure qt5 is installed https://www.qt.io/
 5. create a new folder model `mkdir model`
 5. Make a build directory in the top level directory: `mkdir build && cd build`
