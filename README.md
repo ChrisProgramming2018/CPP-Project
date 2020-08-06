@@ -35,14 +35,15 @@ In this Project, I create a visual Interface to use the Libtorch API to use an L
 <img src="images/Image-2.png" width="600" height="450" />
 1. Choose the path for the word file ( words avaiable for the network)
 <img src="images/Image-3.png" width="600" height="450" />
-2. Load the saved weights to the model
+2. Load the saved weights to the model use (shorcut ctrl + l)
  <img src="images/Image-4.png" width="600" height="450" />
 3. Add word in text window
 <img src="images/Image-5.png" width="600" height="450" />
-4. Click to predict the 4 next most likly to the model
+4. Click to predict the 4 next most likly to the model (shorcut ctrl + p)
 <img src="images/Image-6.png" width="600" height="450" />
 5. Click on the button with the word that fits for you 
-6. The program adds the word to your input and displaies the outputs  
+6. The program adds the word to your input and displaies the outputs 
+7. Close the API click Exit (shorcut Esc)
 
 
 ## For Capstone Project Review
