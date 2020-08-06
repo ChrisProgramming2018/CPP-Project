@@ -1,6 +1,9 @@
 # CPPND: Project use Pytorch API and QT5 to predict next word 
 <img src="images/Image-1.png" width="600" height="450" />
 
+In this Project, I create a visual Interface to use the Libtorch API to use an LSTM model to predict the next words according to the model weights. The model has been trained on books, and the weights just need to be loaded  into the model, choose a file with possible words and you are ready to go
+
+
 ## Dependencies for Running Locally
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
@@ -42,9 +45,20 @@
 6. The program adds the word to your input and displaies the outputs  
 
 
+## For Capstone Project Review
+### Loops, Functions, I/O
+* The file Gui.cpp, LSTModel.cpp are have while and for loops read and laod data from files
+
+### Object Oriented Programming
+* The folder include/ defines the header files for the different classes 
+* Create qt myDlg which inherits from QWidget and Worker Objets for the second thread   
+
+### Concurrency
+* need to use the QThread library to run the model in parallel to keep the prediction latency low 
+
 
 # credit
 
 - The pytorch model is inspirered from https://github.com/prabhuomkar/pytorch-cpp
-- cmake understanding  CMake Tutorial For Beginners  and  https://stackoverflow.com/
+- cmake understanding  CMake Tutorial For Beginners and  https://stackoverflow.com/
 - C++ in general (if you understand german) https://ad-wiki.informatik.uni-freiburg.de/teaching/ProgrammierenCplusplusSS2020
