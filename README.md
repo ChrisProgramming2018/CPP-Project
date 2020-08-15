@@ -21,7 +21,7 @@ In this Project, I create a visual Interface to use the Libtorch API to use an L
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./gui-app`.
-5. 
+5. Use the API
 
 # How to use the app
 <img src="images/Image-2.png" width="600" height="450" />
@@ -34,7 +34,7 @@ In this Project, I create a visual Interface to use the Libtorch API to use an L
 4. Click to predict the 4 next most likly to the model
 <img src="images/Image-6.png" width="600" height="450" />
 5. Click on the button with the word that fits for you 
-6. The program adds the word to your input and displaies the outputs  
+6. The program adds the word to your input and displays  the outputs  
 
 
 
