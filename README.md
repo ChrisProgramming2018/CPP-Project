@@ -19,9 +19,9 @@ In this Project, I create a visual Interface to use the Libtorch API to use an L
 
 This Instructions are varified on XUbuntu 18.04. 
 
-1.Install qt5 by following the instructions link http://www.linuxfromscratch.org/blfs/view/svn/x/qt5.html (17.08.2020)
-2. open the terminal `git clone https://github.com/ChrisProgramming2018/CPP-Project.git` 
-3. go in to repository `cd CPP-Project/
+1.Install qt5 by following the instructions link http://www.linuxfromscratch.org/blfs/view/svn/x/qt5.html (17.08.2020 <br>
+2.open the terminal `git clone https://github.com/ChrisProgramming2018/CPP-Project.git` <br>
+3. go in to repository `cd CPP-Project/ <br>
 4. create folder for pytorch source code  `mkdir third `
 5. Use this link to Download the cpu pytorch https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-1.6.0%2Bcpu.zip
 6. Unzip file `unzip third/libtorch-shared-with-deps-1.6.0+cpu.zip`
