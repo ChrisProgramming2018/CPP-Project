@@ -21,18 +21,18 @@ This Instructions are varified on XUbuntu 18.04.
 
 1.Install qt5 by following the instructions link http://www.linuxfromscratch.org/blfs/view/svn/x/qt5.html (17.08.2020 <br>
 2.open the terminal `git clone https://github.com/ChrisProgramming2018/CPP-Project.git` <br>
-3. go in to repository `cd CPP-Project/ <br>
-4. create folder for pytorch source code  `mkdir third `
-5. Use this link to Download the cpu pytorch https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-1.6.0%2Bcpu.zip
-6. Unzip file `unzip third/libtorch-shared-with-deps-1.6.0+cpu.zip`
-7. move unpacked folder into third `mv libtorch/ third/`
-8. create folder for model `mkdir model`
-9. Download the pretrained model weights into model folder('model-trained.pt')
-10. Create  build folder and move into folder `mkdir build and cd build`
-11. Use cmake to create make file `cmake .. `
-12. Build excutable `make`
-13. open API `./gui-app`
-14. Now you should be able to see the following  Window  
+3. go in to repository `cd CPP-Project/` <br>
+4. create folder for pytorch source code  `mkdir third `<br>
+5. Use this link to Download the cpu pytorch https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-1.6.0%2Bcpu.zip <br>
+6.  Unzip file `unzip third/libtorch-shared-with-deps-1.6.0+cpu.zip` <br>
+7. move unpacked folder into third `mv libtorch/ third/` <br>
+8. create folder for model `mkdir model` <br>
+9. Download the pretrained model weights into model folder('model-trained.pt') <br>
+10. Create  build folder and move into folder `mkdir build and cd build` <br>
+11. Use cmake to create make file `cmake .. ` <br>
+12. Build excutable `make` <br>
+13. open API `./gui-app` <br>
+14. Now you should be able to see the following  Window <br> 
 
 # How to use the app
 <img src="images/Image-2.png" width="600" height="450" />
